@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>ShipItCon 2019</title>
+
+		<meta name="description" content="">
+		<meta name="author" content="tomwillfixit">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+		<style>
+         p.alignLeft {
+         text-align: left;
+         }
+         span.blue, a.blue {
+         color: #33D7FF;
+         outline-color: gray;
+         }
+         div.innovation ul li {
+         margin-bottom:12px;
+         }
+         figcaption {
+         font-size:.8em;
+         }
+         p.miscItems {
+         font-size:1.2em;
+         }
+         .slides section h3 {
+         color: #5b9f5e !important; outline: gray;
+         }
+         .slides img.shortened {
+         max-width: 80%;
+         max-height: 80%;
+         }
+         #upcoming-slide .label {
+         color: #444 !important
+         }
+         ul.credits li {
+         font-size: .6em;
+         }
+				 .scrollable {
+          bottom: 0px;
+          overflow-y: auto  !important;
+          overflow-x: hidden !important;
+          }
+      </style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-transition="convex">
+					<img width="620" height="400" data-src="img/sic2019_logo.png" alt="sic2019">
+					<h2><span class="blue">ShipItCon 2019</span></h2>
+					<p>
+						<small>"Launching on Friday September 6th 2019" <a href="http://twitter.com/shipitcon">@shipitcon</a> <br>
+					  </small>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
